@@ -3,7 +3,7 @@ MAINTAINER skysider <skysider@163.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 
-ENV TZ Asia/Shanghai
+ENV TZ America/New_York
 
 RUN dpkg --add-architecture i386 && \
     apt-get -y update && \
